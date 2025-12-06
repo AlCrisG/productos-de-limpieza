@@ -1,0 +1,52 @@
+html, body, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a.active {
+    background-color: #2980b9;
+    border-radius: 10px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    text-align: center;
+}
+header, header2{
+    min-width: 100%;
+    min-height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgb(70, 70, 70);
+    box-sizing: border-box;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    top: 100px;
+    background-color: rgb(54, 54, 54);
+}
